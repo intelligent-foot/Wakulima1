@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "611649055078",
+    "project_id": "my-first-project1-9a07a",
+    "storage_bucket": "my-first-project1-9a07a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611649055078:android:e49a1ac93e0bdce3ea80a7",
+        "android_client_info": {
+          "package_name": "com.example.wakulima1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "611649055078-9qo0umfugqbtud8r3cdn6dv8i1n16eoe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7eon2QMd1Exu-8M7dDRJaNY7uV3mRJio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "611649055078-9qo0umfugqbtud8r3cdn6dv8i1n16eoe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
