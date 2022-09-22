@@ -73,12 +73,18 @@ class _managerState extends State<manager> {
         child: Padding(
           padding: const EdgeInsets.only(top: 32.0),
           child: ListTile(
+    
             title: GestureDetector(
               onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => otherLoans()));
               },
-              child: Text('Other Loans'),
+              child: Text(
+                'Other Loans',
+                style: TextStyle(color: Colors.black,fontSize: 24,
+                ),
+                ),
+              
             ),
           ),
         ),

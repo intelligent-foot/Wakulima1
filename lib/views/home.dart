@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:wakulima1/views/adminManager.dart';
+import 'package:wakulima1/views/manager.dart';
 import 'package:wakulima1/views/signIn.dart';
 import 'package:wakulima1/views/bottom.dart';
 import 'package:wakulima1/views/adminManager.dart';
@@ -120,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => AdminManager()));
+                                  builder: (context) => manager()));
                         },
                         child: Card(
                           elevation: 10,
