@@ -1,15 +1,14 @@
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-
-class Admin extends StatefulWidget {
-  const Admin({super.key});
+class otherLoans extends StatefulWidget {
+  const otherLoans({super.key});
 
   @override
-  State<Admin> createState() => _AdminState();
+  State<otherLoans> createState() => _otherLoansState();
 }
 
-class _AdminState extends State<Admin> {
+class _otherLoansState extends State<otherLoans> {
   @override
   Widget build(BuildContext context) {
     return Container();
